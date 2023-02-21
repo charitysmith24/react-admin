@@ -7,5 +7,5 @@ echo "Building app"
 npm run build
 
 echo "Deploying files to server"
-rsync -avP build/ charit@casweb-01-dev:/var/www/casmithfullstackdev.com/
+rsync -avP build/ <user>@<host_name>:/var/www/<server_alias/
 echo "Deployment complete"
